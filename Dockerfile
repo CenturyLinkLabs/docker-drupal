@@ -1,4 +1,4 @@
-FROM panamax/panamax-docker-apache-php
+FROM centurylinklabs/apache-php:latest
 MAINTAINER CenturyLinkLabs
 
 # Install packages
