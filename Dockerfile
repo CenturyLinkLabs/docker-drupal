@@ -1,5 +1,5 @@
-FROM centurylinklabs/apache-php:latest
-MAINTAINER CenturyLinkLabs
+FROM centurylink/apache-php:latest
+MAINTAINER CenturyLink
 
 # Install packages
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade && \
